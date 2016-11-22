@@ -11,12 +11,14 @@ Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
 #### Contribute
+
 | Year | Title | Link |
 | --- | --- | ---: |
 | 2015 | SAMA5D44 DTS | [Linux Kernel][linux_kernel] |
 
 
 #### Career
+
 | Year | Works at | Position |
 | --- | --- | ---: |
 | 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
