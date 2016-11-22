@@ -10,11 +10,25 @@ Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his
 
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
-| Item | Description | Price |
+#### Contribute
+| Year | Title | Link |
 | --- | --- | ---: |
-| item1 | item1 description | 1.00 |
-| item2 | item2 description | 100.00 |
+| 2015 | SAMA5D44 DTS | [Linux Kernel][linux_kernel] |
+
+
+#### Career
+| Year | Works at | Position |
+| --- | --- | ---: |
+| 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
+| 2016 | Software Maestro 7th | Mentee |
+| 2016 | Smarteen App Chllenge 2016 | IoT Mentor |
+| 2016 | DrimAES | Software R&D |
+| 2015 | 2nd Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
+| 2014 | 1st Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
+| 2014 | Microsoft Student Partners 8th | Developer |
+| 2014 | Samulnori | Software Senior Researcher |
 
 [centrarium]: https://github.com/bencentra/centrarium
 [bencentra]: http://bencentra.com
 [jekyll]: https://github.com/jekyll/jekyll
+[linux_kernel]: https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs%2Ftags%2Fv4.4.14&qt=author&q=suchang
