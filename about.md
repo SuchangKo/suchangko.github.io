@@ -41,7 +41,7 @@ _ _ _
 #### Career
 
 | Year | Works at | Position |
-| - | ---------- | ---: |
+| :- | :---------- | :--- |
 | 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
 | 2016 | Ministry of Science, ICT and Future Planning 'Software Maestro' 7th | Mentee |
 | 2016 | Smarteen App Chllenge 2016 | IoT Mentor |
@@ -58,7 +58,7 @@ _ _ _
 #### Projects
 
 | Year | Title | Skill |
-| - | --- | ---: |
+| :- | :--- | :--- |
 | 2016 | Intelligent Cafe System | Node.js, Python, Android |
 | 2016 | Graphical Clone Checker | Java |
 | 2015 | Taptic EDU, Taptic TAB | Android, AVR(Arduino) |
