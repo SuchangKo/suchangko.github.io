@@ -12,17 +12,24 @@ permalink: /about/
 저도 제가 뭘 하는지 가끔 모를때가 있습니다.....<br>
 될대로 되버려라!<br>
 
+_ _ _
+
 ## Interests
 
 Embedded Linux, AVR, Server Architecture
+
+_ _ _
 
 ## Hobbys
 
 Baking, Photograph, Arduino
 
+_ _ _
+
 ## Skills
 Android, Node.js, Java, C, Embedded (AVR,Linux)
 
+_ _ _
 
 ## Contribute
 
@@ -30,6 +37,7 @@ Android, Node.js, Java, C, Embedded (AVR,Linux)
 | --- | --- | ---: |
 | 2015 | SAMA5D44 DTS | [Linux Kernel][linux_kernel] |
 
+_ _ _
 
 ## Career
 
@@ -45,6 +53,8 @@ Android, Node.js, Java, C, Embedded (AVR,Linux)
 | 2014 | Samulnori | Software Senior Researcher |
 | 2014 - 2021 | Konkuk University | Bachelor of Computer Science and Engineering |
 | 2011 - 2013 | Hanyang Technical High School | Department of Computer Network |
+
+_ _ _
 
 ## Projects
 
