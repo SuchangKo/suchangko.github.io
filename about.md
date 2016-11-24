@@ -4,9 +4,21 @@ title: About
 permalink: /about/
 ---
 
-<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" class="profile">
+<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" width="150" class="profile">
 
+그냥 일개 후로그래머가 끄적이는 공간입니다.
+문의는 [E-mail][email]로 해주시면 답장드리도록 하겠습니다. :D
 
+저도 제가 뭘 하는지 가끔 모를때가 있습니다.....
+될대로 되버려라!
+
+#### Interests
+
+Embedded Linux, AVR, Server Architecture
+
+#### Hobbys
+
+Baking, Photograph, Arduino
 
 #### Skills
 Android, Node.js, Java, C, Embedded (AVR,Linux)
@@ -35,6 +47,7 @@ Android, Node.js, Java, C, Embedded (AVR,Linux)
 | 2011 - 2013 | Hanyang Technical High School | Department of Computer Network |
 
 #### Projects
+
 | Year | Title | Skill |
 | --- | --- | ---: |
 | 2016 | Intelligent Cafe System | Node.js, Python, Android |
@@ -53,3 +66,4 @@ Android, Node.js, Java, C, Embedded (AVR,Linux)
 
 
 [linux_kernel]: https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs%2Ftags%2Fv4.4.14&qt=author&q=suchang
+[email]: https://git.kernel.org/cgit/linux/kernel/git/stable/linux-stable.git/log/?id=refs%2Ftags%2Fv4.4.14&qt=author&q=suchang
