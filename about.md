@@ -59,7 +59,7 @@ _ _ _
 #### Projects
 
 | Year | Title | Skill |
-| --- | --- | ---: |
+| - | --- | ---: |
 | 2016 | Intelligent Cafe System | Node.js, Python, Android |
 | 2016 | Graphical Clone Checker | Java |
 | 2015 | Taptic EDU, Taptic TAB | Android, AVR(Arduino) |
