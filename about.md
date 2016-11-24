@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" width="150" class="profile">
+<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture"/>
 
 그냥 일개 후로그래머가 끄적이는 공간입니다.<br>
 문의는 [E-mail][email]로 해주시면 답장드리도록 하겠습니다. :D<br>
