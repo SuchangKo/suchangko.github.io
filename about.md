@@ -33,7 +33,7 @@ _ _ _
 #### Contribute
 
 | Year | Title | Link |
-| --- | --- | ---: |
+| :--- | :--- | :--- |
 | 2015 | SAMA5D44 DTS | [Linux Kernel][linux_kernel] |
 
 
@@ -41,7 +41,7 @@ _ _ _
 #### Career
 
 | Year | Works at | Position |
-| :- | :---------- | :--- |
+| :- | :------------------------------ | :------------- |
 | 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
 | 2016 | Ministry of Science, ICT and Future Planning 'Software Maestro' 7th | Mentee |
 | 2016 | Smarteen App Chllenge 2016 | IoT Mentor |
@@ -52,7 +52,6 @@ _ _ _
 | 2014 | Samulnori | Software Senior Researcher |
 | 2014 - 2021 | Konkuk University | Bachelor of Computer Science and Engineering |
 | 2011 - 2013 | Hanyang Technical High School | Department of Computer Network |
-
 
 
 #### Projects
