@@ -43,7 +43,7 @@ _ _ _
 | Year | Works at | Position |
 | :- | :- | :- |
 | 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
-| 2016 | Ministry of Science,<br>ICT and Future Planning<br>'Software Maestro' 7th | Mentee |
+| 2016 | Ministry of Science,ICT and Future Planning 'Software Maestro' 7th | Mentee |
 | 2016 | Smarteen App Chllenge 2016 | IoT Mentor |
 | 2016 | DrimAES | Software R&D |
 | 2015 | 2nd Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
