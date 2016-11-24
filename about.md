@@ -14,32 +14,32 @@ permalink: /about/
 
 _ _ _
 
-## Interests
+#### Interests
 
 Embedded Linux, AVR, Server Architecture
 
 _ _ _
 
-## Hobbys
+#### Hobbys
 
 Baking, Photograph, Arduino
 
 _ _ _
 
-## Skills
+#### Skills
 Android, Node.js, Java, C, Embedded (AVR,Linux)
 
 _ _ _
 
-## Contribute
+#### Contribute
 
 | Year | Title | Link |
 | --- | --- | ---: |
 | 2015 | SAMA5D44 DTS | [Linux Kernel][linux_kernel] |
 
-_ _ _
 
-## Career
+
+#### Career
 
 | Year | Works at | Position |
 | --- | --- | ---: |
@@ -54,9 +54,9 @@ _ _ _
 | 2014 - 2021 | Konkuk University | Bachelor of Computer Science and Engineering |
 | 2011 - 2013 | Hanyang Technical High School | Department of Computer Network |
 
-_ _ _
 
-## Projects
+
+#### Projects
 
 | Year | Title | Skill |
 | --- | --- | ---: |
