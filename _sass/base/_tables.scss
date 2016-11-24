@@ -2,7 +2,6 @@ table {
   @include font-feature-settings("kern", "liga", "tnum");
   border-collapse: collapse;
   margin: $small-spacing 0;
-  table-layout: fixed;
   width: 100%;
 }
 
@@ -15,7 +14,7 @@ th {
 
 td {
   border-bottom: $base-border;
-  padding: $small-spacing 0;
+  padding: $small-spacing 2;
 }
 
 tr,
