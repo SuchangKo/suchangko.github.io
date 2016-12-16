@@ -1,7 +1,9 @@
 ---
 layout: post
-title: 'Mac OSX에서 SSH2 Key 생성하기'
-categories: 'jekyll update'
+title:  "Mac OSX에서 SSH2 Key 생성하기"		
+date:   2016-12-16 15:03:49		
+author: Suchang Ko		
+categories: etc
 ---
 
 `ssh-keygen -t rsa -f mykey`
@@ -14,7 +16,7 @@ categories: 'jekyll update'
 
 Azure VM의 SSH Public Key를 등록할 경우, 위의 명령어에 나오는 결과물중
 
- 	---- BEGIN SSH2 PUBLIC KEY ----
+	---- BEGIN SSH2 PUBLIC KEY ----
 	~~~~~~~~
 	---- END SSH2 PUBLIC KEY ----
 
