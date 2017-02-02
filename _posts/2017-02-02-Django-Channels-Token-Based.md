@@ -51,6 +51,7 @@ def channel_session_user_from_token(func):
                         tmp_str = split_str.lstrip()
                         if "key" in tmp_str:
                             key = tmp_str[4:]
+
             if not key is "":
                 tmp_token = Token.objects.get(key=key)
                 tmp_user = UserProfile.objects.get(user=tmp_token.user)
@@ -60,7 +61,6 @@ def channel_session_user_from_token(func):
                 from django.contrib.auth.models import AnonymousUser
                 message.user = AnonymousUser()
         return func(message, *args, **kwargs)
-
     return inner
 {% endhighlight %}
 
@@ -80,17 +80,17 @@ WebSocket Handshaking할때 Cookie를 넣어주면 된다.
 
 예를 들어, Android에서 WebSocket Library인 'nv-websocket-client'를 사용할때,
 {% highlight java %}
-                new WebSocketFactory()
-                .setConnectionTimeout(TIMEOUT)
-                .createSocket(SERVER)
-                .addListener(new WebSocketAdapter() {
-                    // A text message arrived from the server.
-                    public void onTextMessage(WebSocket websocket, String message) {
-                        System.out.println(message);
-                    }
-                })
-                .addExtension(WebSocketExtension.PERMESSAGE_DEFLATE)
-                .addHeader("cookie","key=4ac18618b19f1f03dc9055a4f13bddc04c0cf8bf;")
-                .connect();
+new WebSocketFactory()
+.setConnectionTimeout(TIMEOUT)
+.createSocket(SERVER)
+.addListener(new WebSocketAdapter() {
+    // A text message arrived from the server.
+    public void onTextMessage(WebSocket websocket, String message) {
+        System.out.println(message);
+    }
+})
+.addExtension(WebSocketExtension.PERMESSAGE_DEFLATE)
+.addHeader("cookie","key=4ac18618b19f1f03dc9055a4f13bddc04c0cf8bf;")
+.connect();
 {% endhighlight %}
 이런 형태의 사용이 가능하다.
