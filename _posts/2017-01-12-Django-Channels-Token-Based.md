@@ -5,7 +5,8 @@ date:   2017-02-02 12:09:12
 author: Suchang Ko
 categories: etc
 ---
-Django의 WebSocket App인 Django-Channels([Link](https://github.com/django/channels))를, 채팅 구현으로 사용하기로 하였다.
+Django의 WebSocket App인 Django-Channels([Link](https://github.com/django/channels))를,
+채팅 구현으로 사용하기로 하였다.
 나의 경우 Django에서 Django-Rest-Framework를 이용해 App과 Web을 전부 커버하려는 상황이었는데,
 Auth Token기반으로 초반 설계를 하게 되었다.
 
@@ -23,8 +24,10 @@ Chat관련된 기능을 수행할때 (chat_join, chat_leave, chat_send),
 해당 예제의 경우 Session Based로 이루어져 있었다.
 
 결국 Decorator를 뜯어보게 되었고,
-channels.auth의 channel_session_user_from_http channel_session_user를 살펴보면
-일반적으로 Django의 Session Based Auth에 의해 http Session 안에 user_hash, user_id, django의 backend_model이 들어가게 된다.
+channels.auth의 channel_session_user_from_http,
+channel_session_user를 살펴보면
+일반적으로 Django의 Session Based Auth에 의해 http Session 안에
+user_hash, user_id, django의 backend_model이 들어가게 된다.
 
 하지만 나의 경우 이미 인증이 완료되어 나오는 Token이 Client에게 존재하였고,
 결론적으로 해당 Decorator에서 필요했던 기능은 해당 Channel_session에서 user 정보만 확인할 수 있으면 되는 것이었다.
@@ -66,7 +69,8 @@ def channel_session_user_from_token(func):
 즉 인증되지 않는 사용자에게는 AnonymousUser를 넣어주고, 인증된 사용자에게는 사용중인 User Model를 message.user에게 넣어주면 간단하게 사용할 수 있다.
 
 이와 같이 만들어진 Decorator를 사용하는 방법은, 위에 올려진 Example을 참고하면 더 빠르다.
-예를 들어, @channel_sessionn_user_from_http가 아닌, @channel_session_user_from_token등으로 사용하면 된다.
+예를 들어, @channel_sessionn_user_from_http가 아닌,
+@channel_session_user_from_token등으로 사용하면 된다.
 
 처음엔 Auth Token을 이용하여 기존 세션인증방식으로 그대로 사용하고자 Model_Backend, user_id, user_hash를 역으로 추적하여, 강제로 channel_session을 생성해주려 했으나,
 channels.auth를 살펴보니 결국 Decorator에서 만족해야 하는 기능은, User를 인증하여 message.user만 넣어주면 해결된다.
