@@ -33,7 +33,7 @@ user_hash, user_id, django의 backend_model이 들어가게 된다.
 결론적으로 해당 Decorator에서 필요했던 기능은 해당 Channel_session에서 user 정보만 확인할 수 있으면 되는 것이었다.
 
 Token Based로 처리하는 간단한 예시는 다음과 같다.
-``` python
+{% highlight python %}
 def channel_session_user_from_token(func):
     @channel_session
     @functools.wraps(func)
@@ -62,7 +62,7 @@ def channel_session_user_from_token(func):
         return func(message, *args, **kwargs)
 
     return inner
-```
+{% endhighlight %}
 
 간단하게 설명하자면, Client에서 Cookie로 들어있는 Key(Auth Token)을 가져와서,
 해당 Token기반으로  User를 찾아 channel_session의 message.user에 넣어주면 간단하게 완료된다.
@@ -79,8 +79,8 @@ App에서도 사용이 간단해진다.
 WebSocket Handshaking할때 Cookie를 넣어주면 된다.
 
 예를 들어, Android에서 WebSocket Library인 'nv-websocket-client'를 사용할때,
-``` python
-new WebSocketFactory()
+{% highlight java %}
+                new WebSocketFactory()
                 .setConnectionTimeout(TIMEOUT)
                 .createSocket(SERVER)
                 .addListener(new WebSocketAdapter() {
@@ -92,5 +92,5 @@ new WebSocketFactory()
                 .addExtension(WebSocketExtension.PERMESSAGE_DEFLATE)
                 .addHeader("cookie","key=4ac18618b19f1f03dc9055a4f13bddc04c0cf8bf;")
                 .connect();
-```
+{% endhighlight %}
 이런 형태의 사용이 가능하다.
