@@ -79,7 +79,7 @@ App에서도 사용이 간단해진다.
 WebSocket Handshaking할때 Cookie를 넣어주면 된다.
 
 예를 들어, Android에서 WebSocket Library인 'nv-websocket-client'를 사용할때,
-```
+~~~ python
 new WebSocketFactory()
                 .setConnectionTimeout(TIMEOUT)
                 .createSocket(SERVER)
@@ -92,5 +92,5 @@ new WebSocketFactory()
                 .addExtension(WebSocketExtension.PERMESSAGE_DEFLATE)
                 .addHeader("cookie","key=4ac18618b19f1f03dc9055a4f13bddc04c0cf8bf;")
                 .connect();
-```
+~~~ python
 이런 형태의 사용이 가능하다.
