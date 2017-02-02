@@ -30,12 +30,14 @@ logo: "/assets/logo.png"
 # Build settings
 
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
-
+markdown: kramdown
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   extensions: ["footnotes", "smart", "tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 
 
-markdown: kramdown
+
 paginate: 5
 paginate_path: "/page:num/"
 inter_post_navigation: false

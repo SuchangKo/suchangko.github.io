@@ -14,7 +14,7 @@ Channels를 이용하려고, Example를 찾던 중 좋은 예제를 찾았다 ([
 
 MultiChat이라는 부분이 가장 도움이 되었는데, 문제가 있었다.
 
-잘 살펴보면, MultiChat의 consumers.py에서
+잘 살펴보면, MultiChat의 `consumers.py`에서
 Websocket HandShaking할때, (ws_connect),
 Chat관련된 기능을 수행할때 (chat_join, chat_leave, chat_send),
 해당 함수에 Decorator가 붙어있는 것을 확인 할 수 있다.
@@ -24,7 +24,7 @@ Chat관련된 기능을 수행할때 (chat_join, chat_leave, chat_send),
 해당 예제의 경우 Session Based로 이루어져 있었다.
 
 결국 Decorator를 뜯어보게 되었고,
-channels.auth의 channel_session_user_from_http,
+`channels.auth`의 channel_session_user_from_http,
 channel_session_user를 살펴보면
 일반적으로 Django의 Session Based Auth에 의해 http Session 안에
 user_hash, user_id, django의 backend_model이 들어가게 된다.
@@ -33,7 +33,7 @@ user_hash, user_id, django의 backend_model이 들어가게 된다.
 결론적으로 해당 Decorator에서 필요했던 기능은 해당 Channel_session에서 user 정보만 확인할 수 있으면 되는 것이었다.
 
 Token Based로 처리하는 간단한 예시는 다음과 같다.
-~~~ python
+``` python
 def channel_session_user_from_token(func):
     @channel_session
     @functools.wraps(func)
@@ -51,7 +51,6 @@ def channel_session_user_from_token(func):
                         tmp_str = split_str.lstrip()
                         if "key" in tmp_str:
                             key = tmp_str[4:]
-
             if not key is "":
                 tmp_token = Token.objects.get(key=key)
                 tmp_user = UserProfile.objects.get(user=tmp_token.user)
@@ -61,8 +60,9 @@ def channel_session_user_from_token(func):
                 from django.contrib.auth.models import AnonymousUser
                 message.user = AnonymousUser()
         return func(message, *args, **kwargs)
+
     return inner
-~~~
+```
 
 간단하게 설명하자면, Client에서 Cookie로 들어있는 Key(Auth Token)을 가져와서,
 해당 Token기반으로  User를 찾아 channel_session의 message.user에 넣어주면 간단하게 완료된다.
@@ -79,7 +79,7 @@ App에서도 사용이 간단해진다.
 WebSocket Handshaking할때 Cookie를 넣어주면 된다.
 
 예를 들어, Android에서 WebSocket Library인 'nv-websocket-client'를 사용할때,
-~~~ python
+``` python
 new WebSocketFactory()
                 .setConnectionTimeout(TIMEOUT)
                 .createSocket(SERVER)
@@ -92,5 +92,5 @@ new WebSocketFactory()
                 .addExtension(WebSocketExtension.PERMESSAGE_DEFLATE)
                 .addHeader("cookie","key=4ac18618b19f1f03dc9055a4f13bddc04c0cf8bf;")
                 .connect();
-~~~
+```
 이런 형태의 사용이 가능하다.
