@@ -72,6 +72,13 @@ def channel_session_user_from_token(func):
 예를 들어, @channel_sessionn_user_from_http가 아닌,
 @channel_session_user_from_token등으로 사용하면 된다.
 
+{% highlight python %}
+@channel_session_user_from_token
+def ws_connect(message):
+    message.reply_channel.send({'accept': True})
+    message.channel_session['rooms'] = []
+{% endhighlight %}
+
 처음엔 Auth Token을 이용하여 기존 세션인증방식으로 그대로 사용하고자 Model_Backend, user_id, user_hash를 역으로 추적하여, 강제로 channel_session을 생성해주려 했으나,
 channels.auth를 살펴보니 결국 Decorator에서 만족해야 하는 기능은, User를 인증하여 message.user만 넣어주면 해결된다.
 
