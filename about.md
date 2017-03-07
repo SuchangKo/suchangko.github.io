@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" width="100" class="profile">
+<img src="/assets/logo.png" title="Profile Picture" width="300">
 
-그냥 일개 후로그래머가 끄적이는 공간입니다.<br>
-문의는 [E-mail][email]로 해주시면 답장드리도록 하겠습니다. :D<br>
-
-바쁠 때는 엄청 바쁘고, 여유로울 때는 엄청 여유롭습니다.<br>
+#### Contact
+[E-mail][email]
 
 _ _ _
 
