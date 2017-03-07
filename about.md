@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" style="width:40%;" class="profile">
+<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" style="width:25%;" class="profile">
 _ _ _
 
 #### Interests
