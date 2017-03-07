@@ -4,11 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/logo.png" title="Profile Picture" width="300">
-
-#### Contact
-[E-mail][email]
-
+<img src="http://graph.facebook.com/100001801169209/picture?type=large" title="Profile Picture" style="width:40%;" class="profile">
 _ _ _
 
 #### Interests
@@ -24,7 +20,7 @@ Baking, Photograph, Arduino
 _ _ _
 
 #### Skills
-Android, Node.js, Java, C, Embedded (AVR,Linux)
+Android, Node.js,Python, Django, Java, C, Embedded (AVR,Linux)
 
 _ _ _
 
