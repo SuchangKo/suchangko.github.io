@@ -56,6 +56,7 @@ _ _ _
 
 | Year | Title           | Skill |  At |
 | :- | :--- | :--- | :--- |
+| 2017 | Heducompany | Android, PHP, jQuery | Freelancer |
 | 2017 | S32K AUTOSAR & MCAL TEST | NXP S32K144 | DrimAES |
 | 2017 | S32K Demo Application | NXP S32K144 - Firmware | DrimAES |
 | 2017 | Noni | React, Django, Android, Websocket | DrimAES |
