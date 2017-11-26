@@ -20,7 +20,7 @@ Baking, Photograph, Arduino
 _ _ _
 
 #### Skills
-Android, Node.js, Python, Django, Java, C, Embedded (AVR,Linux)
+Android, Node.js, Python, Django, Java, C, Embedded (AVR,Linux), PHP
 
 _ _ _
 
