@@ -36,11 +36,13 @@ _ _ _
 
 | Year | Works at | Position |
 | :- | :- | :- |
+| 2017 | Seoul IoT Hackathon | Technical Mentor |
+| 2017 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer & Judge |
 | 2017 | Smarteen App Chllenge 2017 | IoT Mentor |
 | 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
 | 2016 | Ministry of Science,ICT and Future Planning 'Software Maestro' 7th | Mentee |
 | 2016 | Smarteen App Chllenge 2016 | IoT Mentor |
-| 2016 | DrimAES | Software R&D |
+| 2016 - | DrimAES | Software R&D |
 | 2015 | 2nd Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
 | 2014 | 1st Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
 | 2014 | Microsoft Student Partners 8th | Developer |
@@ -54,6 +56,8 @@ _ _ _
 
 | Year | Title           | Skill |  At |
 | :- | :--- | :--- | :--- |
+| 2017 | S32K AUTOSAR & MCAL TEST | NXP S32K144 | DrimAES |
+| 2017 | S32K Demo Application | NXP S32K144 - Firmware | DrimAES |
 | 2017 | Noni | React, Django, Android, Websocket | DrimAES |
 | 2016 | Intelligent Cafe System | Node.js, Python, Android | Software Maestro |
 | 2016 | Graphical Clone Checker | Java | Konkuk Univ |
