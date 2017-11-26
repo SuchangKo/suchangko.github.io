@@ -65,8 +65,8 @@ _ _ _
 | 2015 | Taptic EDU, Taptic TAB | Android, AVR(Arduino) | Samulnori |
 | 2015 | DPA (Digital Pulse Analyzer) | Android, AVR(Arduino) | Samulnori |
 | 2015 | Music Book | Android, Atmel SAMD21 (Cortex M0), Dialog DA14580 | Samulnori |
-| 2015 | Smart Block | AVR, Atmel SAMA5D4, Linux(BSP), C | Samulnori |
-| 2015 | Ballready (ProtoType) | AVR | Samulnori |
+| 2015 | Smart Block(PLEDO) - ProtoType | AVR, Atmel SAMA5D4, Linux(BSP), C | Samulnori |
+| 2015 | Ballready - ProtoType | AVR | Samulnori |
 | 2014 | 후딱자격증 | Android | Freelancer |
 | 2014 | 한국사의 달인 | Android | Freelancer | 
 | 2014 | 학생회 Application | Android, XE | Freelancer |
