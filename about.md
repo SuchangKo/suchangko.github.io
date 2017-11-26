@@ -69,6 +69,7 @@ _ _ _
 | 2015 | Ballready (ProtoType) | AVR | Samulnori |
 | 2014 | 후딱자격증 | Android | Freelancer |
 | 2014 | 한국사의 달인 | Android | Freelancer | 
+| 2014 | 학생회 Application | Android, XE | Freelancer |
 | 2014 | 헬미 | Android, MQTT | Freelancer |
 | 2014 | Konkuk War | Processing | Konkuk Univ |
 | 2013 | 먼지가 되어 (Server) | Node.js, Redis, Java | Deblur |
