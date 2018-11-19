@@ -36,12 +36,14 @@ _ _ _
 
 | Year | Works at | Position |
 | :- | :- | :- |
+| 2018 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer & Judge |
+| 2018 | Smarteen App Chllenge 2018 | Preliminary Judge |
 | 2017 | Seoul IoT Hackathon | Technical Mentor |
 | 2017 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer & Judge |
-| 2017 | Smarteen App Chllenge 2017 | IoT Mentor |
+| 2017 | Smarteen App Chllenge 2017 | Preliminary Judge & IoT Mentor |
 | 2016 | Enhanced SW capability for military soldiers DEV CAMP | Assistant lecturer |
 | 2016 | Ministry of Science,ICT and Future Planning 'Software Maestro' 7th | Mentee |
-| 2016 | Smarteen App Chllenge 2016 | IoT Mentor |
+| 2016 | Smarteen App Chllenge 2016 | Preliminary Judge & IoT Mentor |
 | 2016 - | DrimAES | Software R&D |
 | 2015 | 2nd Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
 | 2014 | 1st Seoul Center for Creative Economy & Innovation IoT Hackaton | Engineering Mentor & Planner |
@@ -56,6 +58,9 @@ _ _ _
 
 | Year | Title           | Skill |  At |
 | :- | :--- | :--- | :--- |
+| 2018 | 'Paper' Dynamic RFS Table Management to Improve Packet Processing Locality in the Linux | Linux Kernel(RFS, RPS) | Konkuk Univ |
+| 2018 | Android Container on AGL | Yocto, Android, LXC, Kernel | DrimAES |
+| 2018 | Automotive Grade Linux BSP Porting | NXP i.MX6 / NEXELL NXP4330, Yocto, AGL | DrimAES |
 | 2017 | Heducompany | Android, PHP, jQuery | Freelancer |
 | 2017 | S32K AUTOSAR & MCAL TEST | NXP S32K144 | DrimAES |
 | 2017 | S32K Demo Application | NXP S32K144 - Firmware | DrimAES |
